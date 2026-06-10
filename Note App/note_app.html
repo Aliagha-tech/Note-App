@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteApp</title>
+    <link rel="styleSheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+
+    <div class="nav-bar">
+        <h2 class="sr-only">Note-taking app — click anywhere on the board to add a sticky note</h2>
+
+
+
+        <div id="toolbar">
+            <span>Note Color:</span>
+            <div class="color-pick selected" style="background:#fef08a" data-color="#fef08a" title="Yellow"></div>
+            <div class="color-pick" style="background:#a5f3fc" data-color="#a5f3fc" title="Cyan"></div>
+            <div class="color-pick" style="background:#fca5a5" data-color="#fca5a5" title="Red"></div>
+            <div class="color-pick" style="background:#bbf7d0" data-color="#bbf7d0" title="Green"></div>
+            <div class="color-pick" style="background:#c7d2fe" data-color="#c7d2fe" title="Indigo"></div>
+            <button id="clear-btn"><i class="ti ti-trash" aria-hidden="true"></i>Clear All</button>
+        </div>
+
+
+
+    </div>
+    
+
+
+
+    <div id="board-frame">
+        <div id="board">
+            <div class="hint" id="hint">
+                <i class="ti ti-click" aria-hidden="true"></i>
+                Click anywhere to add a note
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
